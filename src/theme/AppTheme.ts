@@ -8,7 +8,7 @@ export const getTheme = (mode: PaletteMode) => {
   const appTheme = createTheme({
     palette,
     typography: {
-      fontFamily: ['Poppins', 'Grey Qo', 'Roboto'].join(','),
+      fontFamily: ['Open Sans', 'Roboto'].join(','),
     },
   });
 

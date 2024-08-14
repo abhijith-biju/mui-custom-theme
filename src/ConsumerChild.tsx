@@ -8,10 +8,10 @@ const ConsumerChild = () => {
 
   return (
     <>
-      <Typography variant="body1" mb={2}>
+      <Typography variant="body1" mb={2} fontWeight="700">
         {`Current Color Mode : ${mode}`}
       </Typography>
-      <Button variant="contained" onClick={setMode} sx={{ mb: 1 }}>
+      <Button variant="contained" onClick={setMode}>
         Toggle Color Mode
       </Button>
     </>
